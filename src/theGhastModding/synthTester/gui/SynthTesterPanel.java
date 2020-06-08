@@ -33,8 +33,8 @@ import theGhastModding.synthTester.midi.ProgramChangeEvent;
 import theGhastModding.synthTester.midi.TempoEvent;
 import theGhastModding.synthTester.midi.TextEvent;
 import theGhastModding.synthTester.midi.Track;
-import theGhastModding.synthesizer.main.MidiEvent;
 import theGhastModding.synthesizer.main.TGMSynthesizer;
+import theGhastModding.synthesizer.main.MidiEvent;
 import java.awt.Color;
 
 @SuppressWarnings("serial")

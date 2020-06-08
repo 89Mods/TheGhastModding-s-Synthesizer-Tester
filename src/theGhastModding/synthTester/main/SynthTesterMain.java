@@ -17,7 +17,7 @@ public class SynthTesterMain {
 	public static JFrame frame;
 	
 	public static final String NAME = "TheGhastModding's Synthesizer tester";
-	public static final String VERSION = "2.3_2";
+	public static final String VERSION = "2.3_3";
 	
 	public static void main(String[] args){
 		boolean update = Updater.checkForUpdates();
@@ -36,7 +36,7 @@ public class SynthTesterMain {
 			}
 		}
 		try {
-			TGMSynthesizer.startSynth(44100);
+			TGMSynthesizer.startSynth(44100, false);
 		} catch(Exception e){
 			e.printStackTrace();
 			JOptionPane.showMessageDialog(null, "Error starting TGM's synthesizer", "Error", JOptionPane.ERROR_MESSAGE);
