@@ -65,7 +65,7 @@ public class Updater {
 			try {
 				file.createNewFile();
 			} catch (Exception e) {
-				JOptionPane.showMessageDialog(SynthTesterMain.frame, "Error creating midiversion.dat", "Error", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(SynthTesterMain.frame, "Error creating synthtesterversion.dat", "Error", JOptionPane.ERROR_MESSAGE);
 				e.printStackTrace();
 			}
 		}
@@ -81,7 +81,7 @@ public class Updater {
 			dos.flush();
 			dos.close();
 		} catch (Exception e) {
-			JOptionPane.showMessageDialog(SynthTesterMain.frame, "Error writing to midiversion.dat", "Error", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(SynthTesterMain.frame, "Error writing to synthtesterversion.dat", "Error", JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
 		}
 		try {
