@@ -55,7 +55,7 @@ public class SynthTesterMain {
 			int option = JOptionPane.showConfirmDialog(frame, "An new version is available to download. Would you like to download it now?", "Message", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 			if(option == 0){
 				try {
-					Desktop.getDesktop().browse(new URL("https://www.dropbox.com/s/u1vc58x21vk79bv/MIDISequencer.zip?dl=0").toURI());
+					Desktop.getDesktop().browse(new URL("https://github.com/89Mods/TheGhastModding-s-Synthesizer-Tester/releases").toURI());
 				} catch(Exception e2){
 		        	JOptionPane.showMessageDialog(frame, "Error opening download page", "Error", JOptionPane.ERROR_MESSAGE);
 		        	e2.printStackTrace();
